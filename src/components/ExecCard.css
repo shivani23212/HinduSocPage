@@ -1,0 +1,174 @@
+/* .exec__card__holder {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+} */
+
+.exec__card__holder__container {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exec__card__holder {
+    display: grid;
+    grid-template-columns: 650px 650px;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    align-self: flex-end;
+}
+
+.rangoli-container {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.exec__card__container {
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 750px;
+}
+
+.rangoli-design {
+    width: 300px;
+    /* margin-left: 200px; */
+}
+
+.exec__card__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1rem !important;
+    grid-gap: 50px;
+
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 100%;
+}
+
+.exec__card {
+    display: flex;
+    flex: 1 0 auto;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 2px solid #f07903;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .exec__card__name {
+      font-size: 2rem;
+      padding: 0.5rem 1.75rem;
+      text-align: center;
+  }
+
+  .exec__card__info {
+        padding: 0.5rem 1rem;
+    }
+
+    .exec__card__desc {
+        font-size: 1.25rem;
+        margin-right: 25px;
+    }
+
+   .exec__card__photo {
+      width: 225px;
+      border-radius: 15%;
+      margin-left: 20px;
+    }
+
+@media only screen and (max-width: 1300px) {
+    .exec__card__holder {
+        display: grid;
+        grid-template-columns: 600px 600px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .exec__card__holder {
+        display: grid;
+        grid-template-columns: 550px 550px;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .exec__card__holder {
+        display: grid;
+        grid-template-columns: 700px;
+    }
+
+    .rangoli-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1054px) {
+    .left, .right {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .exec__card__holder {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: auto;
+    }
+
+
+    .exec__card__container {
+        width: auto;
+    }
+
+    .exec__card__photo {
+        width: 200px;
+        border-radius: 15%;
+    }
+
+    .exec__card__info {
+        grid-gap: 40px;
+    }
+
+    .rangoli-design {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .exec__card__container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .exec__card__desc {
+        display: none;
+    }
+
+    .exec__card__photo {
+        width: 250px;
+        border-radius: 15%;
+    }
+
+    .exec__card__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .exec__card__name {
+        font-size: 1.5rem;
+    } */
+}

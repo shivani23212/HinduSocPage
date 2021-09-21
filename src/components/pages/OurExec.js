@@ -1,8 +1,18 @@
 import React from 'react';
 import '../../App.css';
+import '../ExecCard.js'
+import '../ExecCard.css'
+import ExecCardHolder from '../ExecCardHolder';
 
-export default function OurExec() {
+
+function OurExec() {
     return (
-        <h1 className="our-exec">MEET THE EXEC</h1>
+        <>
+            <h1 className="our-exec">MEET THE EXEC</h1>
+                <ExecCardHolder/>
+            
+        </>
     )
 }
+
+export default OurExec;

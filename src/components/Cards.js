@@ -30,14 +30,14 @@ function Cards() {
                         path="/our-exec" />
 
                         <CardItem
-                        src="images/image-4-sponsors.jpg"
-                        text="Find out about our sponsors"
+                        src="images/NHSF.jpg"
+                        text="Find out about the NHSF"
                         // label="introduction"
                         path="/sponsors" />
 
                         <CardItem
                         src="images/image-5-socials.jpg"
-                        text="Follow us on our social medias!"
+                        text="Follow us on our social media"
                         // label="introduction"
                         path="/socials" />
                     </ul>

@@ -1,0 +1,11 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-img {
+    width: 450px;
+    margin:40px auto;
+    border-radius: 10px;
+}

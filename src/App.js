@@ -8,6 +8,7 @@ import WhoWeAre from './components/pages/WhoWeAre';
 import Events from './components/pages/Events';
 import Sponsors from './components/pages/Sponsors';
 import Footer from './components/Footer';
+import ScrollTop from './ScrollTop';
 
 
 
@@ -16,12 +17,13 @@ function App() {
     <div className="App">
       <Router>
         <Navbar/>
+        <ScrollTop/>
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/our-exec" component = {OurExec}/>
           <Route path="/who-we-are" component = {WhoWeAre}/>
           <Route path="/events" component = {Events}/>
-          <Route path="/sponsors" component = {Sponsors}/>
+          <Route path="/sponsors" component = {()=> {window.location.replace("https://www.nhsf.org.uk/");}}/>
           <Route path="/socials" component = { ()=> {window.location.replace("https://www.instagram.com/nhsfwarwick/");}}/>
           <Route path="/join-us" component = { ()=> {window.location.replace("https://www.warwicksu.com/societies-sports/societies/hindu/#org-join");}}/>
         </Switch>

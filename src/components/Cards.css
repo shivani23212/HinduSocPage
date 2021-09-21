@@ -1,7 +1,6 @@
 .cards {
     padding: 4rem;
     background: #fff;
-    /* background: rgb(255, 208, 177) */
 }
 
 h1 {
@@ -12,7 +11,6 @@ h1 {
     display: flex;
     flex-direction: column;
     white-space: nowrap;
-    /* flex-flow: column; */
     align-items: center;
     max-width: 1120px;
     width: 90%;
@@ -54,29 +52,12 @@ h1 {
     height: 100%;
     padding-top: 80%;
     overflow: hidden;
-
-    /* max-width: 400px; */
-  
   }
 
 .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
 }
-
-/* .cards__item__pic-wrap::after {
-    content: attr(data-category);
-    position: absolute;
-    bottom: 0;
-    margin-left: 10px;
-    padding: 6px 8px;
-    max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
-    box-sizing: border-box;
-} */
 
 .cards__item__img {
     position: absolute;

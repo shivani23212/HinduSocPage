@@ -9,8 +9,14 @@
 
 .home, .events, .our-exec, .sponsors, .who-we-are {
     display: flex;
-    height: 90vh;
-    align-items: center;
+    /* height: 90vh; */
+    margin-top: 30px;
+    /* align-items: center; */
     justify-content: center;
-    font-size: 3rem;
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+.who-we-are {
+    margin-top: 30px;
 }
