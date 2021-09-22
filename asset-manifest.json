@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/HinduSocPage/static/css/main.5166c9d0.chunk.css",
-    "main.js": "/HinduSocPage/static/js/main.c9e5832e.chunk.js",
-    "main.js.map": "/HinduSocPage/static/js/main.c9e5832e.chunk.js.map",
+    "main.js": "/HinduSocPage/static/js/main.a247cd66.chunk.js",
+    "main.js.map": "/HinduSocPage/static/js/main.a247cd66.chunk.js.map",
     "runtime-main.js": "/HinduSocPage/static/js/runtime-main.cdb51bc9.js",
     "runtime-main.js.map": "/HinduSocPage/static/js/runtime-main.cdb51bc9.js.map",
     "static/js/2.fc5fef76.chunk.js": "/HinduSocPage/static/js/2.fc5fef76.chunk.js",
     "static/js/2.fc5fef76.chunk.js.map": "/HinduSocPage/static/js/2.fc5fef76.chunk.js.map",
     "index.html": "/HinduSocPage/index.html",
     "static/css/main.5166c9d0.chunk.css.map": "/HinduSocPage/static/css/main.5166c9d0.chunk.css.map",
-    "static/js/2.fc5fef76.chunk.js.LICENSE.txt": "/HinduSocPage/static/js/2.fc5fef76.chunk.js.LICENSE.txt"
+    "static/js/2.fc5fef76.chunk.js.LICENSE.txt": "/HinduSocPage/static/js/2.fc5fef76.chunk.js.LICENSE.txt",
+    "static/media/hero-section-video-1.bbaa95a9.mp4": "/HinduSocPage/static/media/hero-section-video-1.bbaa95a9.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.cdb51bc9.js",
     "static/js/2.fc5fef76.chunk.js",
     "static/css/main.5166c9d0.chunk.css",
-    "static/js/main.c9e5832e.chunk.js"
+    "static/js/main.a247cd66.chunk.js"
   ]
 }
