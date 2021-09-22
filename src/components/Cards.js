@@ -1,6 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
+import hinduSocLogo from "../images/image-1-logo.jpg";
 
 function Cards() {
     return (
@@ -10,7 +11,7 @@ function Cards() {
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
-                        src="images/image-1-logo.jpg"
+                        src={hinduSocLogo}
                         text="Discover the story behind our society"
                         // label="introduction"
                         path="/who-we-are" />
