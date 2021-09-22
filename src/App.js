@@ -28,7 +28,7 @@ function App() {
         </Switch>
       </Router> */}
 
-      <Router basename="/HinduSocPage">
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar/>
         <ScrollTop/>
         <Switch>
