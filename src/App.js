@@ -28,7 +28,7 @@ function App() {
         </Switch>
       </Router> */}
 
-      <BrowserRouter basename="/HinduSocPage">
+      <Router basename="/HinduSocPage">
         <Navbar/>
         <ScrollTop/>
         <Switch>
@@ -40,7 +40,7 @@ function App() {
           <Route path="/socials" component = { ()=> {window.location.replace("https://www.instagram.com/nhsfwarwick/");}}/>
           <Route path="/join-us" component = { ()=> {window.location.replace("https://www.warwicksu.com/societies-sports/societies/hindu/#org-join");}}/>
         </Switch>
-      </BrowserRouter>
+      </Router>
       <Footer/>
     </div>
   );
