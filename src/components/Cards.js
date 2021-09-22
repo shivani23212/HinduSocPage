@@ -4,7 +4,7 @@ import "./Cards.css";
 import hinduSocLogo from "../images/image-1-logo.jpg";
 import diyas from "../images/image-2-diyas.jpg";
 import execNames from "../images/image-3-exec.PNG";
-import NHSFLogo from "../images/NHSF.png";
+import NHSFLogo from "../images/NHSF.jpg";
 import socials from "../images/image-5-socials.jpg";
 
 function Cards() {
