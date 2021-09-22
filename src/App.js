@@ -14,7 +14,7 @@ import ScrollTop from './ScrollTop';
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <Navbar/>
         <ScrollTop/>
         <Switch>
@@ -26,7 +26,21 @@ function App() {
           <Route path="/socials" component = { ()=> {window.location.replace("https://www.instagram.com/nhsfwarwick/");}}/>
           <Route path="/join-us" component = { ()=> {window.location.replace("https://www.warwicksu.com/societies-sports/societies/hindu/#org-join");}}/>
         </Switch>
-      </Router>
+      </Router> */}
+
+      <BrowserRouter basename="/HinduSocPage">
+        <Navbar/>
+        <ScrollTop/>
+        <Switch>
+          <Route path="/" exact component={Home}/>
+          <Route path="/our-exec" component = {OurExec}/>
+          <Route path="/who-we-are" component = {WhoWeAre}/>
+          <Route path="/events" component = {Events}/>
+          <Route path="/sponsors" component = {()=> {window.location.replace("https://www.nhsf.org.uk/");}}/>
+          <Route path="/socials" component = { ()=> {window.location.replace("https://www.instagram.com/nhsfwarwick/");}}/>
+          <Route path="/join-us" component = { ()=> {window.location.replace("https://www.warwicksu.com/societies-sports/societies/hindu/#org-join");}}/>
+        </Switch>
+      </BrowserRouter>
       <Footer/>
     </div>
   );
