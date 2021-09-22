@@ -6,7 +6,6 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import OurExec from './components/pages/OurExec';
 import WhoWeAre from './components/pages/WhoWeAre';
 import Events from './components/pages/Events';
-import Sponsors from './components/pages/Sponsors';
 import Footer from './components/Footer';
 import ScrollTop from './ScrollTop';
 
