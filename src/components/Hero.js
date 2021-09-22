@@ -3,11 +3,13 @@ import "../App.css";
 import { Button } from "./Button";
 import './Hero.css';
 import {Link} from 'react-router-dom';
+import video from "./hero-section-video-1.mp4";
 
 function Hero() {
     return (
         <div className="hero-container">
-            <video src="./hero-section-video-1.mp4" autoPlay loop muted/>
+            {/* <video src="hero-section-video-1.mp4" autoPlay loop muted/> */}
+            <video src={video} autoPlay loop muted/>
             <h1>Namaste!</h1>
             <p>Welcome to a home away from home</p>
             <div className="hero-btns">
