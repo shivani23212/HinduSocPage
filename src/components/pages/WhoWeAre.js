@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../App.css';
 import './WhoWeAre.css';
+import garbaImage from "../../images/garba.jpg";
 
 function WhoWeAre() {
     return (
         <>
             <h1 className="who-we-are">OUR STORY</h1>
             <div className="our-story-container">
-                    <img src="images/garba.jpg" alt="" className="our-story-image" />
+                    <img src={garbaImage} alt="Central Zone Navratri" className="our-story-image" />
                     <div className="our-story-information">
                         <p>Chocolate cake dragée chocolate muffin I love cupcake I love. Bonbon bear claw cupcake liquorice sweet.
                             Tootsie roll shortbread carrot cake icing I love. Macaroon gummies muffin candy canes candy canes I love sugar plum.

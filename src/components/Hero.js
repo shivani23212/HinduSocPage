@@ -8,9 +8,8 @@ import video from "../videos/hero-section-video-1.mp4";
 function Hero() {
     return (
         <div className="hero-container">
-            {/* <video src="hero-section-video-1.mp4" autoPlay loop muted/> */}
             <video src={video} autoPlay loop muted/>
-            <h1>Namasteee!</h1>
+            <h1>Namaste!</h1>
             <p>Welcome to a home away from home</p>
             <div className="hero-btns">
             
