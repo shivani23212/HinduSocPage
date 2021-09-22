@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HinduSocPage/static/css/main.92090ed8.chunk.css",
-    "main.js": "/HinduSocPage/static/js/main.2bdeb353.chunk.js",
-    "main.js.map": "/HinduSocPage/static/js/main.2bdeb353.chunk.js.map",
+    "main.js": "/HinduSocPage/static/js/main.bfa9528d.chunk.js",
+    "main.js.map": "/HinduSocPage/static/js/main.bfa9528d.chunk.js.map",
     "runtime-main.js": "/HinduSocPage/static/js/runtime-main.cdb51bc9.js",
     "runtime-main.js.map": "/HinduSocPage/static/js/runtime-main.cdb51bc9.js.map",
     "static/js/2.ba71b862.chunk.js": "/HinduSocPage/static/js/2.ba71b862.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.cdb51bc9.js",
     "static/js/2.ba71b862.chunk.js",
     "static/css/main.92090ed8.chunk.css",
-    "static/js/main.2bdeb353.chunk.js"
+    "static/js/main.bfa9528d.chunk.js"
   ]
 }
