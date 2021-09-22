@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HinduSocPage/static/css/main.5166c9d0.chunk.css",
-    "main.js": "/HinduSocPage/static/js/main.eb54fd26.chunk.js",
-    "main.js.map": "/HinduSocPage/static/js/main.eb54fd26.chunk.js.map",
+    "main.js": "/HinduSocPage/static/js/main.5ab85eae.chunk.js",
+    "main.js.map": "/HinduSocPage/static/js/main.5ab85eae.chunk.js.map",
     "runtime-main.js": "/HinduSocPage/static/js/runtime-main.cdb51bc9.js",
     "runtime-main.js.map": "/HinduSocPage/static/js/runtime-main.cdb51bc9.js.map",
     "static/js/2.fc5fef76.chunk.js": "/HinduSocPage/static/js/2.fc5fef76.chunk.js",
@@ -11,16 +11,19 @@
     "static/css/main.5166c9d0.chunk.css.map": "/HinduSocPage/static/css/main.5166c9d0.chunk.css.map",
     "static/js/2.fc5fef76.chunk.js.LICENSE.txt": "/HinduSocPage/static/js/2.fc5fef76.chunk.js.LICENSE.txt",
     "static/media/NHSF.31dc0ebe.jpg": "/HinduSocPage/static/media/NHSF.31dc0ebe.jpg",
+    "static/media/coming-soon.23bc7588.png": "/HinduSocPage/static/media/coming-soon.23bc7588.png",
+    "static/media/garba.c2eb2e1f.jpg": "/HinduSocPage/static/media/garba.c2eb2e1f.jpg",
     "static/media/hero-section-video-1.bbaa95a9.mp4": "/HinduSocPage/static/media/hero-section-video-1.bbaa95a9.mp4",
     "static/media/image-1-logo.0ee9aea8.jpg": "/HinduSocPage/static/media/image-1-logo.0ee9aea8.jpg",
     "static/media/image-2-diyas.aee4064a.jpg": "/HinduSocPage/static/media/image-2-diyas.aee4064a.jpg",
     "static/media/image-3-exec.6cd5751f.PNG": "/HinduSocPage/static/media/image-3-exec.6cd5751f.PNG",
-    "static/media/image-5-socials.2dd3d77c.jpg": "/HinduSocPage/static/media/image-5-socials.2dd3d77c.jpg"
+    "static/media/image-5-socials.2dd3d77c.jpg": "/HinduSocPage/static/media/image-5-socials.2dd3d77c.jpg",
+    "static/media/rangoli.bf6a37a1.png": "/HinduSocPage/static/media/rangoli.bf6a37a1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cdb51bc9.js",
     "static/js/2.fc5fef76.chunk.js",
     "static/css/main.5166c9d0.chunk.css",
-    "static/js/main.eb54fd26.chunk.js"
+    "static/js/main.5ab85eae.chunk.js"
   ]
 }
