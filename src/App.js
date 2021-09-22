@@ -28,11 +28,11 @@ function App() {
         </Switch>
       </Router> */}
 
-      <Router >
+      <Router basename="/HinduSocPage">
         <Navbar/>
         <ScrollTop/>
         <Switch>
-          <Route path="/HinduSocPage" exact component={Home}/>
+          <Route path="/" exact component={Home}/>
           <Route path="/our-exec" component = {OurExec}/>
           <Route path="/who-we-are" component = {WhoWeAre}/>
           <Route path="/events" component = {Events}/>
