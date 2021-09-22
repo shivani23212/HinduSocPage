@@ -33,8 +33,8 @@ function App() {
         <ScrollTop/>
         <Switch>
           <Route path="/" exact component={Home}/>
-          {/* <Route path="/our-exec" component = {WhoWeAre}/> */}
-          <Route path={process.env.PUBLIC_URL + "/our-exec"} component = {OurExec}/>
+          <Route path="/our-exec" component = {WhoWeAre}/>
+          {/* <Route path={process.env.PUBLIC_URL + "/our-exec"} component = {OurExec}/> */}
           <Route path="/who-we-are" component = {WhoWeAre}/>
           <Route path="/events" component = {Events}/>
           <Route path="/sponsors" component = {()=> {window.location.replace("https://www.nhsf.org.uk/");}}/>
