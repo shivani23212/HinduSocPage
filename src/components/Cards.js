@@ -2,6 +2,10 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 import hinduSocLogo from "../images/image-1-logo.jpg";
+import diyas from "../images/image-2-diyas.jpg";
+import execNames from "../images/image-3-exec.PNG";
+import NHSFLogo from "../images/NHSF.png";
+import socials from "../images/image-5-socials.jpg";
 
 function Cards() {
     return (
@@ -13,33 +17,28 @@ function Cards() {
                         <CardItem
                         src={hinduSocLogo}
                         text="Discover the story behind our society"
-                        // label="introduction"
                         path="/who-we-are" />
 
                         <CardItem
-                        src="images/image-2-diyas.jpg"
+                        src={diyas}
                         text="Our current and upcoming socials"
-                        // label="introduction"
                         path="/events" />
                     </ul>
 
                     <ul className="cards__items">
                         <CardItem
-                        src="images/image-3-exec.PNG"
+                        src={execNames}
                         text="Meet our Hindu Soc exec team"
-                        // label="introduction"
                         path="/our-exec" />
 
                         <CardItem
-                        src="images/NHSF.jpg"
+                        src={NHSFLogo}
                         text="Find out about the NHSF"
-                        // label="introduction"
                         path="/sponsors" />
 
                         <CardItem
-                        src="images/image-5-socials.jpg"
+                        src={socials}
                         text="Follow us on our social media"
-                        // label="introduction"
                         path="/socials" />
                     </ul>
                 </div>
