@@ -4,6 +4,7 @@ import './WhoWeAre.css';
 import garbaImage from "../../images/garba.jpg";
 
 function WhoWeAre() {
+    console.log("function called.");
     return (
         <>
             <h1 className="who-we-are">OUR STORY</h1>

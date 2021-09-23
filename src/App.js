@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+// import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import OurExec from './components/pages/OurExec';
 import WhoWeAre from './components/pages/WhoWeAre';
 import Events from './components/pages/Events';
@@ -29,6 +30,7 @@ function App() {
       </Router> */}
 
       <Router basename={process.env.PUBLIC_URL}>
+        {console.log(process.env.PUBLIC_URL)}
         <Navbar/>
         <ScrollTop/>
         <Switch>
